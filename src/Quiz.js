@@ -41,7 +41,7 @@ function Quiz() {
         <>
           <div className='question-section'>
             <div className='question-count'>
-              <span>Question {currentQuestion + 1}</span>/{quizData.length}
+              <span>Yo Question {currentQuestion + 1}</span>/{quizData.length}
             </div>
             <div className='question-text'>{quizData[currentQuestion].question}</div>
           </div>
