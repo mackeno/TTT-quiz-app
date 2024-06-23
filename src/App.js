@@ -27,6 +27,7 @@ function App() {
       <Authenticator>
         {({ signOut }) => (
           <main>
+            <h2>Sup this is on codespaces.</h2>
             <header className='App-header'>
               {/* Quiz Component */}
               <Quiz />
